@@ -43,26 +43,27 @@
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&kp U>, <&kp UP>;
-        mods = <(MOD_LCTL)>;
+        mods = <(MOD_LALT)>;
     };
     j_down: movedown {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&kp J>, <&kp DOWN>;
-        mods = <(MOD_LCTL)>;
+        mods = <(MOD_LALT)>;
     };
     h_left: moveleft {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&kp H>, <&kp LEFT>;
-        mods = <(MOD_LCTL)>;
+        mods = <(MOD_LALT)>;
     };
     l_right: moveright {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&kp L>, <&kp RIGHT>;
-        mods = <(MOD_LCTL)>;
+        mods = <(MOD_LALT)>;
     };
+
    };
 
     keymap {
