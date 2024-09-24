@@ -40,22 +40,26 @@
         #keep-mods = <(MOD_RSFT)>;
     };
     u_up: moveup {
-        compatible = "zmk,behavior-mod-morph";
+        compatible = "zmk,behavior-mod-morph"
+        #binding-cells = <0>;
         bindings = <&kp U>, <&kp UP>;
         mods = <(MOD_LCTL)>;
     };
     j_down: movedown {
         compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
         bindings = <&kp J>, <&kp DOWN>;
         mods = <(MOD_LCTL)>;
     };
     h_left: moveleft {
         compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
         bindings = <&kp H>, <&kp LEFT>;
         mods = <(MOD_LCTL)>;
     };
     l_right: moveright {
         compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
         bindings = <&kp L>, <&kp RIGHT>;
         mods = <(MOD_LCTL)>;
     };
