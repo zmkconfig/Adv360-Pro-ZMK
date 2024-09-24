@@ -38,7 +38,8 @@
         bindings = <&kp K>, <&kp ENTER>;
         mods = <(MOD_LCTL)>;
         #keep-mods = <(MOD_RSFT)>;
-  };
+    };
+   };
 
     keymap {
         compatible = "zmk,keymap";
