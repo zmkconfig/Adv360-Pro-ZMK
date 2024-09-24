@@ -39,6 +39,26 @@
         mods = <(MOD_LCTL)>;
         #keep-mods = <(MOD_RSFT)>;
     };
+    u_up: moveup {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp U>, <&kp UP>;
+        mods = <(MOD_LCTL)>;
+    };
+    j_down: movedown {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp J>, <&kp DOWN>;
+        mods = <(MOD_LCTL)>;
+    };
+    h_LEFT: moveleft {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp H>, <&kp LEFT>;
+        mods = <(MOD_LCTL)>;
+    };
+    l_RIGHT: moveright {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp L>, <&kp RIGHT>;
+        mods = <(MOD_LCTL)>;
+    };
    };
 
     keymap {
