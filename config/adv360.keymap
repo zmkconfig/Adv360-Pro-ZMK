@@ -49,12 +49,12 @@
         bindings = <&kp J>, <&kp DOWN>;
         mods = <(MOD_LCTL)>;
     };
-    h_LEFT: moveleft {
+    h_left: moveleft {
         compatible = "zmk,behavior-mod-morph";
         bindings = <&kp H>, <&kp LEFT>;
         mods = <(MOD_LCTL)>;
     };
-    l_RIGHT: moveright {
+    l_right: moveright {
         compatible = "zmk,behavior-mod-morph";
         bindings = <&kp L>, <&kp RIGHT>;
         mods = <(MOD_LCTL)>;
