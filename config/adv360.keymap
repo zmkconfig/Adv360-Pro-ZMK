@@ -40,7 +40,7 @@
         #keep-mods = <(MOD_RSFT)>;
     };
     u_up: moveup {
-        compatible = "zmk,behavior-mod-morph"
+        compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&kp U>, <&kp UP>;
         mods = <(MOD_LCTL)>;
