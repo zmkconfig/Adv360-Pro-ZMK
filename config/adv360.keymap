@@ -74,7 +74,7 @@
             bindings = <
  &kp EQUAL              &kp N1    &kp N2    &kp N3     &kp N4  &kp N5               &tog 1                                                                          &mo 3  &kp N6  &kp N7     &kp N8    &kp N9           &kp N0  &kp MINUS
    &kp TAB               &kp Q     &kp W     &kp E      &kp R   &kp T                &none                                                                          &none   &kp Y   &u_up      &kp I     &kp O            &kp P   &kp BSLH
- &kp ENTER               &hm LGUI A     &hm LALT S     &hm LSHFT D      &hm LCTRL F   &kp G                &mo 1   &kp LEFT_ALT  &kp LGUI                  &kp LEFT_CONTROL  &kp ESC    &kp ESC   &kp H   &hm RCTRL J      &k_enter     &hm RALT L    &kp SEMI    &kp SQT
+ &kp ENTER               &kp A     &kp S     &kp D      &kp F   &kp G                &mo 1   &kp LEFT_ALT  &kp LGUI                  &kp LEFT_CONTROL  &kp ESC    &kp ESC   &kp H   &kp J      &k_enter     &kp L    &kp SEMI    &kp SQT
  &kp LSHFT  &hm LCTRL Z     &kp X     &kp C      &kp V   &kp B                                      &kp HOME                         &kp PG_UP                       &kp N   &kp M  &kp COMMA   &kp DOT  &hm RCTRL SLASH  &kp RSHFT
      &mo 2           &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp SPACE  &kp BACKSPACE   &kp END                         &kp PG_DN  &kp DEL  &kp ENTER          &kp UP   &kp DOWN  &kp LBKT         &kp RBKT      &mo 2
             >;
@@ -94,7 +94,7 @@
             bindings = <
  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
  &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none  &kp LEFT  &kp UP  &DOWN   &kp RIGHT   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none  &kp LEFT  &kp UP  &kp DOWN   &kp RIGHT   &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
